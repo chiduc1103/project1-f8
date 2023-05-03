@@ -536,7 +536,7 @@ color: #7B8087;
     margin-top: 50px;
     padding: 50px;
     margin-bottom: 58px;
-    background-color: yellowgreen;
+    /* background-color: yellowgreen; */
 }
 .footer .row{
     display: flex;
@@ -584,6 +584,10 @@ color: #7B8087;
      height: 28px;
     /* background-color:yellow; */
     border-radius: 3px;
+    background: #f9f9f9;
+}
+.footer .social-link +.social-link{
+    margin-left: 16px;
 }
 .footer .social-link:hover{
     background-color: #ddd;
