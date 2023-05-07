@@ -42,25 +42,22 @@ a{
 .fixed-header{
     background: #E6F0FF;
     padding-top: 26px;
-    top:-26px;
-    position:sticky;
-    z-index:1;
+    top: -26px;
+    position: sticky;
+    z-index: 1;
 }
 .hero-wrap
 {
+    position: relative;
     display: flex;
     flex-direction:column;
-    position: relative;
     background: #E6F0FF;
-    height:100vh;
+    height: calc(100vh - 50px);
 }
 .navbar{
     display:flex;
     align-items:center;
     padding-top:12px 0;
-
-    background: greenyellow;
-
 }
 .navbar ul{
     display:flex;
